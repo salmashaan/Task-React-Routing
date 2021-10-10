@@ -6,21 +6,24 @@ import "./App.css";
 import Detail from "./components/Detail";
 import { Route, Switch } from "react-router";
 import NavBar from "./components/NavBar";
+import products from "./products";
 
 function App() {
   return (
     <div>
       <NavBar />
       <Switch>
-        <Route exact path="/List">
+        <Route exact path="/product/:productSlug">
           {" "}
-          <ProductList />{" "}
+          <Detail />
+        </Route>
+        <Route exact path="/List">
+          <ProductList product={products} />
         </Route>
         <Route exact path="/">
           {" "}
           <Home />{" "}
         </Route>
-        <Detail />
       </Switch>
     </div>
   );

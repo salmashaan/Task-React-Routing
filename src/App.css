@@ -56,11 +56,30 @@
 
 header {
   background-color: beige;
-  padding: 15px;
+  display: flex;
+  color: white;
+  margin: 5px 0;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 header a:hover {
   background-color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.nav-item {
+  width: 4%;
+  text-align: center;
+  padding: 7px 0;
   color: black;
 }
 

@@ -6,13 +6,18 @@ function NavBar() {
     <header>
       <Link to="/">
         <img
+          id="container"
           className="logo"
           src="https://www.pngitem.com/pimgs/m/119-1196430_cookie-clipart-logo-png-cookie-logo-png-transparent.png"
           alt="logo"
         />
       </Link>
-      <Link to="/">Home</Link>
-      <Link to="/List">List</Link>
+      <Link to="/" className="nav-item">
+        Home
+      </Link>
+      <Link to="/List" className="nav-item">
+        List
+      </Link>
     </header>
   );
 }
