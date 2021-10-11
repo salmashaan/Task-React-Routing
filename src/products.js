@@ -2,6 +2,7 @@ const products = [
   {
     id: 1,
     name: "Chocolate Chip Cookie",
+    slug: "chocolate-chip-cookie",
     price: 10,
     description: "this is Zainab's fav cookie",
     image:
@@ -10,6 +11,7 @@ const products = [
   {
     id: 2,
     name: "Cute Cookie",
+    slug: "cute-cookie",
     price: 15,
     description: "pink cookie with sparkels",
     image:
@@ -18,6 +20,7 @@ const products = [
   {
     id: 3,
     name: "Katakeet Cookie",
+    slug: "katakeet-cookie",
     price: 7,
     description: "Laila fav cookie",
     image:
