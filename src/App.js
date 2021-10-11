@@ -13,10 +13,10 @@ function App() {
     <div>
       <NavBar />
       <Switch>
-        <Route exact path="/List/:listsSlug">
+        <Route exact path="/list/:listSlug">
           <Detail />
         </Route>
-        <Route exact path="/List">
+        <Route exact path="/list">
           <ProductList product={products} />
         </Route>
         <Route exact path="/">
