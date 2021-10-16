@@ -7,9 +7,10 @@ const ProductItem = (props) => {
   return (
     <Link to={`/list/${product.slug}`}>
       <div className="productWrapper">
-        <img alt={product.name} src={product.image} />
-        <p>{product.name}</p>
-        <p className="product-price">{product.price} KD</p>
+        <img alt={product.title} src={product.poster} />
+        <br /> <br />
+        <p>{product.title}</p>
+        <br />
       </div>
     </Link>
   );

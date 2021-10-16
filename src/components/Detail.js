@@ -12,10 +12,13 @@ function Detail() {
     <div className="detail">
       {product && ( // if there is cookie show its data
         <>
-          <h5>{product.name}</h5>
-          <img src={product.image} alt="cookie" />
-          <p>{product.price} KD</p>
-          <p>{product.description}</p>
+          <br />
+          <h5>{product.title}</h5>
+          <img src={product.poster} alt="cookie" />
+          <br /> <br />
+          <br />
+          <p>{product.overview}</p>
+          <br />
         </>
       )}
     </div>
