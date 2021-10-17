@@ -9,7 +9,7 @@ function NavBar() {
       className="navbar"
       collapseOnSelect
       expand="lg"
-      bg="dark"
+      bg="black"
       variant="dark"
     >
       <Container>

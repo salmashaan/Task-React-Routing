@@ -17,8 +17,9 @@ const ProductList = () => {
   return (
     <>
       <SearchBar setQuery={setQuery} />
-      <div className="item-container">
-        <div className="listWrapper">{productList}</div>
+      <br />
+      <div className="item-container row">
+        <div className="listWrapper col-md-auto">{productList}</div>
       </div>
     </>
   );

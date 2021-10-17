@@ -14,10 +14,13 @@ function Detail() {
         <>
           <br />
           <h5>{product.title}</h5>
-          <img src={product.poster} alt="cookie" />
-          <br /> <br />
           <br />
-          <p>{product.overview}</p>
+          <img src={product.poster} alt="cookie" />
+          <br />
+          <br />
+          <div className="row justify-content-center">
+            <p className="align-self-center col-5">{product.overview}</p>
+          </div>
           <br />
         </>
       )}

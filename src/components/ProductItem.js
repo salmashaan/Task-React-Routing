@@ -6,11 +6,15 @@ const ProductItem = (props) => {
 
   return (
     <Link to={`/list/${product.slug}`}>
-      <div className="productWrapper">
-        <img alt={product.title} src={product.poster} />
-        <br /> <br />
-        <p>{product.title}</p>
-        <br />
+      <div className="row justify-content-center productWrapper p-7">
+        <div>
+          {" "}
+          <br />
+          <img className="poster" alt={product.title} src={product.poster} />
+          <br /> <br />
+          <p className="p-4 align-self-center">{product.title}</p>
+          <br />
+        </div>
       </div>
     </Link>
   );
